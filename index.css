@@ -609,7 +609,7 @@ button:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 60px;
-  padding: 0 35px;
+  padding: 0 15px;
   overflow: visible;
 }
 
@@ -620,7 +620,7 @@ button:hover {
   flex-wrap: nowrap;
   gap: 0;
   width: 100%;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .shop-card {
