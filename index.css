@@ -124,8 +124,6 @@ button:hover {
   background-color: #b59f5b;
 }
 
-/* ========== HEADER ========== */
-
 .site-header {
   position: relative;
   width: 100%;
@@ -226,8 +224,6 @@ button:hover {
   line-height: 1.2;
 }
 
-/* ========== TRENDS ========== */
-
 .trends {
   width: 100%;
   margin-bottom: 61px;
@@ -324,8 +320,6 @@ button:hover {
 .trend-link:hover {
   color: #b59f5b;
 }
-
-/* ========== MAIN ========== */
 
 .main {
   position: relative;
@@ -425,8 +419,6 @@ button:hover {
   line-height: 1.5;
   color: #000000;
 }
-
-/* ========== ASIDE ========== */
 
 .aside {
   display: flex;
@@ -603,7 +595,7 @@ button:hover {
   margin-left: 10px;
 }
 
-/* SHOP */
+/* ========== SHOP ========== */
 
 .shop {
   width: 100%;
@@ -764,7 +756,6 @@ button:hover {
   width: 100%;
 }
 
-/* Кнопка закрытия */
 .feedback-close {
   position: absolute;
   top: -30px;
@@ -799,12 +790,12 @@ button:hover {
   background-color: #b59f5b;
 }
 
-/* исправила: убран font-weight: 700, font-size 14px вместо 12px */
 .feedback-form label {
   display: block;
   margin-bottom: 8px;
   font-size: 14px;
 }
+
 
 .feedback-form input[type="text"],
 .feedback-form textarea {
