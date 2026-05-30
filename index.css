@@ -609,7 +609,7 @@ button:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 60px;
-  padding: 0 15px;
+  padding: 0 28px;
   overflow: visible;
 }
 
@@ -625,7 +625,7 @@ button:hover {
 
 .shop-card {
   position: relative;
-  width: 290px;
+  width: 295px;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -698,42 +698,6 @@ button:hover {
   align-items: flex-start;
   gap: 5px;
   margin-bottom: 0;
-}
-
-.price-old {
-  font-size: 14px;
-  color: #999999;
-  text-decoration: line-through;
-}
-
-.price-current {
-  font-size: 18px;
-  font-weight: 700;
-  color: #000000;
-}
-
-.shop-card-button {
-  grid-column: 2;
-  grid-row: 3;
-  align-self: center;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 30px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #b59f5b;
-  border: none;
-  text-align: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  flex-shrink: 0;
-}
-
-.shop-card-button:hover {
-  background-color: #323232;
 }
 
 /* ========== FEEDBACK MODAL ========== */
@@ -1050,7 +1014,7 @@ button:hover {
     width: 31%;
   }
 
-   .shop {
+     .shop {
     padding: 0 35px;
   }
 
