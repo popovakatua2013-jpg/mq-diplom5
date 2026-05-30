@@ -1055,13 +1055,14 @@ button:hover {
   }
 
   .shop-grid {
-    flex-wrap: wrap;
-    gap: 126px;                 
+   flex-wrap: wrap;
+    gap: 0;
+    justify-content: space-between;                 
   }
 
   .shop-card {
     flex: none;
-    width: calc(50% - 63px);   
+    width: 290px;   
   }
 
   .shop-card-content {
