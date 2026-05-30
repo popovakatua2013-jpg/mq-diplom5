@@ -620,7 +620,7 @@ button:hover {
   flex-wrap: nowrap;
   gap: 0;
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .shop-card {
