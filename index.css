@@ -609,7 +609,7 @@ button:hover {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto 60px;
-  padding: 0 35px;
+  padding: 0 15px;
   overflow: visible;
 }
 
@@ -1015,7 +1015,7 @@ button:hover {
   }
 
      .shop {
-    padding: 0 15px;
+    padding: 0 35px;
   }
 
   .shop-grid {
