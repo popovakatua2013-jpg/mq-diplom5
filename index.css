@@ -1,4 +1,4 @@
-@font-face {
+
   font-family: "OpenSans";
   src: url("OpenSans-Regular.woff") format("woff");
   font-weight: 400;
@@ -93,7 +93,8 @@ button:hover {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .container {
@@ -997,7 +998,6 @@ button:hover {
     font-size: 35px;
     padding: 40px 0 50px;
   }
-
   .burger-button {
     display: flex;
   }
@@ -1005,26 +1005,32 @@ button:hover {
   .nav {
     display: none;
   }
+
+  /* ИСПРАВЛЕНИЕ: trends-grid с wrap и gaps по макету */
   .trends-grid {
     flex-wrap: wrap;
+    gap: 4px;
   }
 
   .trends .section-title {
     padding: 0 35px;
   }
 
+  /* ИСПРАВЛЕНИЕ: trend-card ширина по макету (2 в ряд) */
   .trend-card {
     width: calc(50% - 2px);
     flex: none;
     min-height: 250px;
   }
 
+  /* ИСПРАВЛЕНИЕ: trend-overlay padding/margin по макету */
   .trend-overlay {
-    margin: 25px;
-    padding: 25px;
-    width: calc(100% - 50px);
+    margin: 20px;
+    padding: 20px;
+    width: calc(100% - 40px);
   }
 
+  /* ИСПРАВЛЕНИЕ: post-card вертикальный (image сверху, текст снизу) по макету */
   .post-card {
     flex-direction: column;
     gap: 20px;
@@ -1035,6 +1041,7 @@ button:hover {
     height: 220px;
   }
 
+  /* ИСПРАВЛЕНИЕ: main padding и gap по макету */
   .main {
     gap: 4%;
     padding: 0 35px;
@@ -1048,26 +1055,29 @@ button:hover {
     width: 31%;
   }
 
+  /* ИСПРАВЛЕНИЕ: shop padding по макету */
   .shop {
     padding: 0 35px;
   }
 
+  /* ИСПРАВЛЕНО: shop-grid 2 карточки в ряд, gap по макету */
   .shop-grid {
     flex-wrap: wrap;
     row-gap: 30px;
-    column-gap: 70px;
+    column-gap: 20px;
     justify-content: flex-start;
   }
 
   .shop-card {
     flex: none;
-    width: calc(50% - 35px);
+    width: calc(50% - 10px);
   }
 
+  /* ИСПРАВЛЕНО: shop-card-content negative margins и padding по макету */
   .shop-card-content {
     margin-left: -20px;
     margin-right: -20px;
-    padding: 15px 20px;
+    padding: 20px 20px 15px;
   }
 
   .social-section {
@@ -1095,8 +1105,9 @@ button:hover {
     background-image: url("banner-mobile.jpg");
   }
 
+  /* ИСПРАВЛЕНИЕ: padding на мобильном отличается от десктопа */
   .container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .header-top {
@@ -1127,12 +1138,13 @@ button:hover {
   }
 
   .trends .section-title {
-    padding: 0 15px;
+    padding: 0 20px;
     text-align: center;
   }
 
   .trends-grid {
     flex-direction: column;
+    gap: 4px;
   }
 
   .trend-card {
@@ -1151,10 +1163,11 @@ button:hover {
     font-size: 14px;
   }
 
+  /* ИСПРАВЛЕНИЕ: main padding по макету */
   .main {
     flex-direction: column;
     gap: 40px;
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .posts {
@@ -1186,8 +1199,9 @@ button:hover {
     width: 100%;
   }
 
+  /* ИСПРАВЛЕНИЕ: shop padding по макету */
   .shop {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .shop-grid {
@@ -1219,8 +1233,9 @@ button:hover {
     margin-bottom: 14px;
   }
 
+  /* ИСПРАВЛЕНИЕ: social-section padding по макету */
   .social-section {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .feedback-modal {
