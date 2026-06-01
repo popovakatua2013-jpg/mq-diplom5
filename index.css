@@ -1061,7 +1061,7 @@ button:hover {
   }
 
   .container {
-    padding: 0 15px;
+    padding: 0 35px;
   }
 
   .header-top {
@@ -1119,7 +1119,7 @@ button:hover {
   .main {
     flex-direction: column;
     gap: 40px;
-    padding: 0 15px;
+    padding: 0 35px;
   }
 
   .posts {
@@ -1152,7 +1152,7 @@ button:hover {
   }
 
   .shop {
-    padding: 0 15px;
+    padding: 0 35px;
   }
 
   .shop-grid {
