@@ -109,7 +109,6 @@ button:hover {
   align-items: center;
 }
 
-/* Унифицированный контейнер для всех секций — одинаковая ширина контента */
 .content-wrapper {
   max-width: 1200px;
   width: 100%;
@@ -1019,7 +1018,6 @@ button:hover {
     display: none;
   }
 
-  /* ИСПРАВЛЕНИЕ: trends-grid — padding как у остальных секций */
   .trends-grid {
     flex-wrap: wrap;
     gap: 4px;
@@ -1030,7 +1028,6 @@ button:hover {
     padding: 0 35px;
   }
 
-  /* ИСПРАВЛЕНИЕ: trend-card ширина по макету (2 в ряд) с учётом padding */
   .trend-card {
     width: calc(50% - 2px);
     flex: none;
@@ -1040,15 +1037,13 @@ button:hover {
   .copyright {
     padding: 42px 35px 0;
   }
-
-  /* ИСПРАВЛЕНИЕ: trend-overlay padding/margin по макету */
+  
   .trend-overlay {
     margin: 20px;
     padding: 20px;
     width: calc(100% - 40px);
   }
 
-  /* ИСПРАВЛЕНИЕ: post-card вертикальный (image сверху, текст снизу) по макету */
   .post-card {
     flex-direction: column;
     gap: 20px;
@@ -1059,7 +1054,6 @@ button:hover {
     height: 220px;
   }
 
-  /* ИСПРАВЛЕНИЕ: main padding и gap по макету */
   .main {
     gap: 4%;
     padding: 0 35px;
@@ -1073,12 +1067,10 @@ button:hover {
     width: 31%;
   }
 
-  /* ИСПРАВЛЕНИЕ: shop padding по макету */
   .shop {
     padding: 0 35px;
   }
 
-  /* ИСПРАВЛЕНО: shop-grid 2 карточки в ряд, gap по макету */
   .shop-grid {
     flex-wrap: wrap;
     row-gap: 30px;
@@ -1091,7 +1083,6 @@ button:hover {
     width: calc(50% - 10px);
   }
 
-  /* Рамка = полная ширина карточки, изображение уже на 40px (20px отступ с каждой стороны) */
   .shop-card-content {
     margin-left: 0;
     margin-right: 0;
@@ -1129,7 +1120,6 @@ button:hover {
     background-image: url("banner-mobile.jpg");
   }
 
-  /* ИСПРАВЛЕНИЕ: padding на мобильном отличается от десктопа */
   .container {
     padding: 0 20px;
   }
@@ -1166,7 +1156,6 @@ button:hover {
     text-align: center;
   }
 
-  /* ИСПРАВЛЕНИЕ: trends-grid padding как у остальных секций (одинаковая ширина контента) */
   .trends-grid {
     flex-direction: column;
     gap: 4px;
@@ -1193,7 +1182,6 @@ button:hover {
     font-size: 14px;
   }
 
-  /* ИСПРАВЛЕНИЕ: main padding по макету */
   .main {
     flex-direction: column;
     gap: 40px;
@@ -1244,7 +1232,6 @@ button:hover {
     overflow: visible;
   }
 
-  /* Рамка = полная ширина карточки, изображение уже на 30px (15px отступ с каждой стороны) */
   .shop-card-image {
     width: calc(100% - 30px);
     margin-left: auto;
@@ -1265,7 +1252,6 @@ button:hover {
     margin-bottom: 14px;
   }
 
-  /* ИСПРАВЛЕНИЕ: social-section padding по макету */
   .social-section {
     padding: 0 20px;
   }
