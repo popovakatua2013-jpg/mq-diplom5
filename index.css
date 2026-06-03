@@ -247,6 +247,10 @@ button:hover {
 }
 
 .trends-grid {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
   max-width: none;
   width: 100%;
   margin: 0;
