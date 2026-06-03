@@ -243,21 +243,14 @@ button:hover {
 }
 
 .trends .section-title {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0 15px;
 }
 
 .trends-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 4px;
-  max-width: 1200px;
+  max-width: none;
   width: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .trend-card {
@@ -1021,7 +1014,6 @@ button:hover {
   .trends-grid {
     flex-wrap: wrap;
     gap: 4px;
-    padding: 0 35px;
   }
 
   .trends .section-title {
@@ -1159,7 +1151,6 @@ button:hover {
   .trends-grid {
     flex-direction: column;
     gap: 4px;
-    padding: 0 20px;
   }
 
   .copyright {
